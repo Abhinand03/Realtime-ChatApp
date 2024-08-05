@@ -1,0 +1,27 @@
+.img-pro{
+
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+                                                                                                                                                                                                                                                                                                                                     
+}
+.ur-name{
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    padding-left: 33px;
+
+}
+.ur-m{
+    background: #104d6cfc;
+    width: 94%;
+    margin-left: 2%;
+    padding: 10px;
+    border-radius: 33px;
+    color: white;
+    cursor: pointer;
+
+}
+.ur-m:hover{
+    background:#249ddafc ;
+}

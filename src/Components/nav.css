@@ -1,0 +1,13 @@
+.img-user-pr{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+.nav-main{
+    background: #022639;
+    padding: 10px;
+    box-shadow: 0px -48px 35px 62px;
+    position: sticky;
+    top: 0px;
+
+}

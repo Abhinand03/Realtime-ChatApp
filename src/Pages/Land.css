@@ -1,0 +1,76 @@
+.intro-btn{
+    
+}
+.intro-m{
+    
+    height: 100vh;
+    background-image: url("https://www.itl.cat/pngfile/big/243-2434994_material-style-tapet-simple-4k-wallpaper.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+.intro-1{
+    width: 66%;
+   position: relative;
+   top: 200px;
+   left: 140px;
+    font-size: 23px;
+    font-weight: 500;
+    color: white;
+    text-align: justify;
+
+
+}
+.btn-div{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    position: relative;
+    top: 22px;
+    right: 14px;
+}
+
+.intro-btn {
+  text-decoration: none;
+    padding: 13px 2em;
+    border: none;
+    border-radius: 20px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    cursor: pointer;
+    color: #ffffff;
+    transition: all 1000ms;
+    font-size: 15px;
+    position: relative;
+    overflow: hidden;
+    outline: 2px solid #ffffff;
+    background: #00000057;
+  }
+  
+  .intro-btn:hover {
+    color: #000000;
+    transform: scale(1.1);
+    outline: 2px solid #fffb01;
+    box-shadow: 4px 5px 17px -4px #fffb01;
+  }
+  
+  .intro-btn::before {
+    content: "";
+    position: absolute;
+    left: -50px;
+    top: 0;
+    width: 0;
+    height: 100%;
+    background-color: #fffb01;
+    transform: skewX(45deg);
+    z-index: -1;
+    transition: width 1000ms;
+  }
+  
+  .intro-btn:hover::before {
+    width: 250%;
+  }
+
+  
+  

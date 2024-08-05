@@ -1,0 +1,129 @@
+.chat-div{
+    height: 100%;
+    width: 100%;
+    
+    
+    
+    
+}
+.ch-bg{
+    
+    background-image: url("https://personalmarketingdigital.com.br/wp-content/uploads/2018/05/background-whatsapp-7.jpg");
+    background-size: cover;
+}
+.chat-div2{
+    width: 100%;
+    height: 100%;
+   
+/* border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(1.1px);
+-webkit-backdrop-filter: blur(3.1px);  */
+
+
+
+}
+.chat-div3{
+    width: 100%;
+    height: 100%;
+
+}
+
+.chat-box{
+}
+.mess-inp{
+    width: 100%;
+    height: 47px;
+    background: #1c523e;
+    border: 0px;
+    padding-left: 34px;
+    font-size: 21px;
+    color: white;
+
+}
+.mess-inp:focus{
+    border: 0px;
+    
+}
+.inp-div{
+    
+}
+.send{
+    position: absolute;
+    right: 43px;
+    font-size: 24px;
+
+}
+
+.send-mes{
+background: rgba(0, 0, 0, 0.3);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(4.8px);
+-webkit-backdrop-filter: blur(4.8px);
+    padding: 11px 31px;
+    position: relative;
+    right: 24px;
+    border-radius: 15px 50px 0px 29px;
+}
+.send-mes2{
+   
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(4.8px);
+    -webkit-backdrop-filter: blur(4.8px);
+    padding: 11px 28px;
+    border-radius: 148px 138px 84px 16px;
+    position: relative;
+    left: 20px;
+    }
+.ch-div{
+    width: 100%;
+     height: 100%;
+background:rgb(0 0 0 / 41%);
+
+}
+
+.img-pr{
+
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+                                                                                                                                                                                                                                                                                                                                     
+}
+
+.ch-top-div{
+    background-color: #0d4430;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+}
+
+.all-users{
+    height: 100vh;
+    overflow-y: scroll;
+}
+.inp-box{
+    position: absolute;
+    top: 682px;
+    width: 65.2%;
+}
+
+.chat-end{
+    display: flex;
+    height: 83vh;
+    flex-direction: column;
+    overflow-y: auto;
+
+}
+
+
+
+
+
+@media(max-width:800px){
+    .chat-page{
+        display: none;
+    }
+}
